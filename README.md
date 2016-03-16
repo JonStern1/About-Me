@@ -17,7 +17,7 @@
 
     <p>'Do you like soap operas?'</p>
 
-    <p>'Which drama do you enjoy? CSI? Law and Order? Starski & Hutch? Something else?'</p>;
+    <p>'Do you like Game of Thrones?'</p>;
 <script src ="/Users/jnjstern/cf/201/About-Me/app.js" type="text/javascript"></script>
   </body>
 </html>
@@ -27,9 +27,9 @@ var watchTv = confirm('Do you enjoy TV shows from your youth?');
 alert('Do you enjoy TV shows from your youth?' + watchTv);
 console.log('enjoy TV shows? ' + watchTv);
 
-var yourAge = prompt ('What is your age');
-alert ('Your age is ' + yourAge);
-console.log('age is ' + yourAge);
+var yourAge = confirm ('Are you over 18 years old?');
+alert ('You are over 18 ' + yourAge);
+console.log('User is over 18 ' + yourAge);
 
 var likeCartoons = confirm ('Do you enjoy cartoons?');
 alert ('Cartoons are the best! ' + likeCartoons);
@@ -43,6 +43,6 @@ var likeSoapoperas = confirm ('Do you like soap operas?');
 alert ('How did they get that name? ' + likeSoapoperas);
 console.log('like soap operas? ' + likeSoapoperas);
 
-var likeDrama = prompt ('Which drama do you enjoy? CSI? Law and Order? Starski & Hutch? Something else?');
-alert (likeDrama + ' is a great show!');
-console.log('like drama? ' + likeDrama);
+var likeGameOfThrones = confirm ('Do you like Game of Thrones?');
+alert ('Game of Thrones is a great show, but the books are better! ' + likeGameOfThrones);
+console.log('like Game of Thrones? ' + likeGameOfThrones);
