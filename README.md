@@ -41,6 +41,7 @@ console.log('like reality TV? ' + likeReality);
 var likeSoapoperas = prompt ('Do you like soap operas? yes or no?');
 if (likeSoapoperas.toUpperCase() === 'YES'){
   prompt('Do you know how they got that name? yes or no');
+  console.log('Yes, user likes soap operas');
 }
 else{
   console.log ('We are done here!');
