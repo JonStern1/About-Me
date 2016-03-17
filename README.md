@@ -60,5 +60,20 @@ if (likeSoapoperas.toUpperCase() === 'YES'){
   console.log('Yes, user likes soap operas');
 }
 else{
-  console.log ('We are done here!');
+  console.log ('We are done here!');}
+
+while (guess !== 4){
+  var guess = prompt ('We are now going to play a number guessing game. What is my favorite number? The number is between 1 and 20. You have 4 guesses. Ready? Guess!');
+}
+if(guess < 4){
+  console.log('Sorry, your guess is too low');
+}
+else if(guess > 4){
+  console.log('Sorry, your guess is too high');
+}
+else if(guess === 4){
+  console.log('Right on! 4 is my favorite number');
+}
+else{
+  console.log('Please input a number.');
 }
