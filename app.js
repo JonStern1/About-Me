@@ -1,20 +1,20 @@
 var questionsArray = ['Do you enjoy TV shows from your youth?', 'Are you over 18 years old?','Do you enjoy cartoons?', 'Do you like Reality TV?', 'Do you like soap operas?','Do you like Game of Trones?'];
 
 var pTagOne = document.getElementById('ans-one');
-function watchTV() {
+function watchTvQ() {
   var watchTv = confirm(questionsArray[0]);
-  pTagOne.textContent = 'Do you enjoy TV shows from your youth?' + watchTv;
   console.log('enjoy TV shows? ' + watchTv);
+  pTagOne.textContent = 'Do you enjoy TV shows from your youth? ' + watchTv;
 }
-watchTv();
+watchTvQ();
 
 var pTagTwo = document.getElementById('ans-two');
-function yourAge() {
+function yourAgeQ() {
   var yourAge = confirm (questionsArray[1]);
   pTagTwo.textContent = 'You are over 18 ' + yourAge;
   console.log('User is over 18 ' + yourAge);
 }
-yourAge();
+yourAgeQ();
 
 var pTagThree = document.getElementById('ans-three');
 function likeCartoons() {
@@ -34,7 +34,7 @@ likeReality();
 
 var pTagFive = document.getElementById('ans-five');
 function likeSoapoperas() {
-  var likeSoapoperas = confirm (qestionsArray[4]);
+  var likeSoapoperas = confirm (questionsArray[4]);
   pTagFive.textContent = 'How did they get that name? ' + likeSoapoperas;
   console.log('like soap operas? ' + likeSoapoperas);
 }
